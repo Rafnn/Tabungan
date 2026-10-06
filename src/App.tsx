@@ -29,7 +29,7 @@ const INITIAL_RECORDS: DepositRecord[] = [
     amount: 3000000,
     date: '18 Maret 2025',
     method: 'SeaBank Rekening Bersama',
-    account: '9012 8847 2910',
+    account: '9013 7810 2242 ',
     timestamp: Date.now() - 6 * 86400000,
   },
   {
@@ -39,19 +39,10 @@ const INITIAL_RECORDS: DepositRecord[] = [
     amount: 2500000,
     date: '10 Maret 2025',
     method: 'BCA Virtual Account',
-    account: '8801 2948 1029 384',
+    account: '842 1783 322',
     timestamp: Date.now() - 14 * 86400000,
   },
-  {
-    id: 'dep-3',
-    partner: 'rafly',
-    partnerName: 'Rafly',
-    amount: 5000000,
-    date: '28 Februari 2025',
-    method: 'Mandiri Virtual Account',
-    account: '8950 8294 1120 491',
-    timestamp: Date.now() - 25 * 86400000,
-  },
+
 ];
 
 const TARGET_AMOUNT = 80000000; // Rp 80 Juta
@@ -60,19 +51,19 @@ const BANK_DATA = {
   seabank: {
     key: 'seabank',
     name: 'SeaBank Rekening Bersama',
-    number: '9012 8847 2910',
+    number: '9013 7810 2242',
     code: 'SeaBank',
     tag: 'Utama',
     tagColor: 'text-[#35644b]',
     color: 'text-orange-600',
-    holder: 'Kas Bersama Rafly & Salfa',
+    holder: 'Salfa Nadiyah',
     badge: 'Bebas Biaya',
     desc: 'Verifikasi otomatis & instan',
   },
   bca: {
     key: 'bca',
     name: 'BCA Virtual Account',
-    number: '8801 2948 1029 384',
+    number: '842 1783 322',
     code: 'BCA',
     tag: 'VA',
     tagColor: 'text-[#414943]',
