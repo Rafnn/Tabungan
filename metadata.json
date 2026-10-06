@@ -1,0 +1,6 @@
+{
+  "name": "Tabungan Berdua - Tambah Setoran",
+  "description": "Aplikasi pencatatan dan pengelolaan tabungan bersama pasangan dengan komitmen finansial transparan, multi-metode pembayaran, dan antarmuka hangat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
