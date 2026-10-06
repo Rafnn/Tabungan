@@ -81,51 +81,11 @@ const BANK_DATA = {
     badge: 'Bebas Biaya',
     desc: 'Verifikasi instan 24/7',
   },
-  mandiri: {
-    key: 'mandiri',
-    name: 'Mandiri Virtual Account',
-    number: '8950 8294 1120 491',
-    code: 'Mandiri',
-    tag: 'VA',
-    tagColor: 'text-[#414943]',
-    color: 'text-blue-900',
-    holder: 'Kas Pernikahan Berdua',
-    badge: 'Bebas Biaya',
-    desc: 'Verifikasi otomatis Livin',
-  },
-  bri: {
-    key: 'bri',
-    name: 'BRIVA (BRI Virtual Account)',
-    number: '1288 0192 8472 901',
-    code: 'BRI',
-    tag: 'BRIVA',
-    tagColor: 'text-[#414943]',
-    color: 'text-blue-600',
-    holder: 'Kas Bersama Rafly & Salfa',
-    badge: 'Bebas Biaya',
-    desc: 'Verifikasi otomatis BRImo',
-  },
+
 };
 
 const EWALLET_DATA = [
-  {
-    id: 'GoPay',
-    name: 'GoPay',
-    tag: 'Buka Otomatis',
-    tagColor: 'text-[#35644b]',
-    icon: 'account_balance_wallet',
-    iconBg: 'bg-sky-50 text-sky-600',
-    phone: '0812-9981-2244',
-  },
-  {
-    id: 'OVO',
-    name: 'OVO',
-    tag: 'Direct Pay',
-    tagColor: 'text-[#717973]',
-    icon: 'payments',
-    iconBg: 'bg-purple-50 text-purple-600',
-    phone: '0812-9981-2244',
-  },
+
   {
     id: 'ShopeePay',
     name: 'ShopeePay',
